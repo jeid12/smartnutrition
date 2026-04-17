@@ -1,0 +1,26 @@
+# Global workspace ignores only.
+# Domain-specific ignores live in:
+# - backend/.gitignore
+# - frontend/.gitignore
+# - docs/.gitignore
+# - infra/.gitignore
+# - scripts/.gitignore
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Common env and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Generic temporary files
+tmp/
+temp/
+.cache/

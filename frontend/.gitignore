@@ -1,0 +1,21 @@
+# Frontend (Next.js)
+
+# Dependencies and package manager caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Build artifacts
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Tool caches
+.turbo/
+.eslintcache

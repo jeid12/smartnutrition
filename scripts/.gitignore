@@ -1,0 +1,9 @@
+# Script runtime and temporary outputs
+
+__pycache__/
+*.py[cod]
+
+# Local script outputs
+output/
+tmp/
+logs/

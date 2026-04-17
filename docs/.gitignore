@@ -1,0 +1,10 @@
+# Documentation outputs
+
+# Static site generators
+site/
+build/
+
+# Doc tool caches
+.cache/
+.docusaurus/
+.vitepress/cache/

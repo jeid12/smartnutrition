@@ -1,0 +1,15 @@
+# Infrastructure local state
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Monitoring local data
+monitoring/prometheus-data/
+monitoring/grafana-data/

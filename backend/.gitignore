@@ -1,0 +1,36 @@
+# Backend (FastAPI / Python)
+
+# Virtual environments
+env/
+.venv/
+venv/
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.eggs/
+*.egg-info/
+
+# Runtime outputs
+logs/
+uploads/
+artifacts/
+
+# Local databases
+*.sqlite
+*.sqlite3
+
+# ML artifacts (keep directories, ignore heavy files)
+models/**/*.pt
+models/**/*.onnx
+models/**/*.engine
+models/**/*.ckpt
+models/**/*.tflite
+models/**/*.npy
+models/**/*.npz
