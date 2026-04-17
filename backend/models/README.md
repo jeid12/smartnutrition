@@ -30,3 +30,7 @@ This folder stores model assets used by the backend inference pipeline.
 
 - Keep production-serving model versions pinned and documented.
 - Prefer small, optimized artifacts for fast CPU/edge inference in MVP.
+
+## Detailed guide
+
+- See MODEL_ASSETS_GUIDE.md for required files, generation workflow, and release checklist.
